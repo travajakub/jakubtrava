@@ -8,27 +8,26 @@
   <body>
     <h1>REGISTRACE</h1>
     <form action="https://sekod-zcu.g6.cz/infis.php" Method="POST">
-      <label for="narozeni"> Datum narození: </label><input type="date" id="narozeni" name="datum_narozeni" value="narozeni"><br>
-      <input required type="text" name="jmeno" placeholder="Jméno"><br>
-      <input required type="text" name="přijmení" placeholder="Přijmení"><br>
+      <input id="krestni" required type="text" name="jmeno" placeholder="Jméno"><br>
+      <label for="krestni"> jmeno</label>
+      <input id="prijmeni" required type="text" name="přijmení" placeholder="Přijmení"><br>
+      <label></label>
        <input required type="email" name="email" placeholder="Email"><br>
       <input required type="password" name="heslo" placeholder="Heslo"><br>
        <input required type="password" name="heslo_znovu" placeholder="Heslo znovu"><br>
       <input required type="date" name="Narození"><br>
       <input required type="color" name="Barva">Vyberte barvu stránky<br>
       <input required type="file" name="Profilovka"><br>
-       <input required type="radio" name="pohlaví" value="Muž">muž<br>
-      <input required type="radio" name="pohlaví" volue="Žena">žena<br>
+       <input  type="radio" name="pohlaví" value="Muž">muž<br>
+      <input type="radio" name="pohlaví" volue="Žena">žena<br>
       <input required type="submit" value="ZAREGISTROVAT"><br>
-      <input required type="reset" value="vymazat"><br>
-      <textarea name="zprava"></textarea>
+      <input  type="reset" value="vymazat"><br>
+      <textarea name="zprava"></textarea><br>
       <select name="pohlaví">
         <option volue="muz"> muž </option>
         <option volue="zena"> žena </option>
         <option volue="jine"> jiné </option>
       </select>
-      
-      
     </form>
     
   </body>
