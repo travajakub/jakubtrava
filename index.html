@@ -9,18 +9,18 @@
     <h1>REGISTRACE</h1>
     <form action="https://sekod-zcu.g6.cz/infis.php" Method="POST">
       <label for="narozeni"> Datum narození: </label><input type="date" id="narozeni" name="datum_narozeni" value="narozeni"><br>
-      <input type="text" name="jmeno" placeholder="Jméno"><br>
-      <input type="text" name="přijmení" placeholder="Přijmení"><br>
-       <input type="email" name="email" placeholder="Email"><br>
-      <input type="password" name="heslo" placeholder="Heslo"><br>
-       <input type="password" name="heslo_znovu" placeholder="Heslo znovu"><br>
-      <input type="date" name="Narození"><br>
-      <input type="color" name="Barva">Vyberte barvu stránky<br>
-      <input type="file" name="Profilovka"><br>
-       <input type="radio" name="pohlaví" value="Muž">muž<br>
-      <input type="radio" name="pohlaví" volue="Žena">žena<br>
-      <input type="submit" value="ZAREGISTROVAT"><br>
-      <input type="reset" value="vymazat"><br>
+      <input required type="text" name="jmeno" placeholder="Jméno"><br>
+      <input required type="text" name="přijmení" placeholder="Přijmení"><br>
+       <input required type="email" name="email" placeholder="Email"><br>
+      <input required type="password" name="heslo" placeholder="Heslo"><br>
+       <input required type="password" name="heslo_znovu" placeholder="Heslo znovu"><br>
+      <input required type="date" name="Narození"><br>
+      <input required type="color" name="Barva">Vyberte barvu stránky<br>
+      <input required type="file" name="Profilovka"><br>
+       <input required type="radio" name="pohlaví" value="Muž">muž<br>
+      <input required type="radio" name="pohlaví" volue="Žena">žena<br>
+      <input required type="submit" value="ZAREGISTROVAT"><br>
+      <input required type="reset" value="vymazat"><br>
       <textarea name="zprava"></textarea>
       <select name="pohlaví">
         <option volue="muz"> muž </option>
