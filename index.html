@@ -9,25 +9,23 @@
     <h1>REGISTRACE</h1>
     <form action="https://sekod-zcu.g6.cz/infis.php" Method="POST">
       <input id="krestni" required type="text" name="jmeno" placeholder="Jméno"><br>
-      <label for="krestni"> jmeno</label>
+      <label for="krestni"> Jméno</label>
       <input id="prijmeni" required type="text" name="přijmení" placeholder="Přijmení"><br>
-      <label></label>
-       <input required type="email" name="email" placeholder="Email"><br>
-      <input required type="password" name="heslo" placeholder="Heslo"><br>
-       <input required type="password" name="heslo_znovu" placeholder="Heslo znovu"><br>
-      <input required type="date" name="Narození"><br>
-      <input required type="color" name="Barva">Vyberte barvu stránky<br>
-      <input required type="file" name="Profilovka"><br>
-       <input  type="radio" name="pohlaví" value="Muž">muž<br>
+      <label for="prijmeni"> Přijímení</label>
+      <input id="datum" required type="date" name="Datum narození"><br>
+      <label for="datum">Datum narození</label>
+         <input id="pohlavi" type="radio" name="pohlaví" value="Muž">muž<br>
       <input type="radio" name="pohlaví" volue="Žena">žena<br>
-      <input required type="submit" value="ZAREGISTROVAT"><br>
-      <input  type="reset" value="vymazat"><br>
-      <textarea name="zprava"></textarea><br>
-      <select name="pohlaví">
-        <option volue="muz"> muž </option>
-        <option volue="zena"> žena </option>
-        <option volue="jine"> jiné </option>
+      <label for="pohlavi">Pohlaví</label>
+       <input id="email" required type="email" name="email" placeholder="Email"><br>
+      <label for="email" >Email</label>
+      <input id="telefon" type="tel" >
+      <label for="telefon" ></label>
+        <select id="skola" name="navštěvuji">
+        <label for="skola">Navštěvuji:</label>
       </select>
+      <input required type="submit" value="ODESLAT"><br>
+      <input  type="reset" value="vymazat"><br>
     </form>
     
   </body>
