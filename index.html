@@ -8,22 +8,23 @@
   <body>
     <h1>REGISTRACE</h1>
     <form action="https://sekod-zcu.g6.cz/infis.php" Method="POST">
-      <input id="krestni" required type="text" name="jmeno" placeholder="Jméno">
-      <label for="krestni"> Jméno</label>
-      <input id="prijmeni" required type="text" name="přijmení" placeholder="Přijmení">
-      <label for="prijmeni"> Přijímení</label>
-      <input id="datum" required type="date" name="Datum narození">
+       <label for="krestni"> Jméno</label>
+      <input id="krestni" required type="text" name="jmeno" placeholder="Jméno"><br>
+     <label for="prijmeni"> Přijímení</label>
+      <input id="prijmeni" required type="text" name="přijmení" placeholder="Přijmení"><br>
       <label for="datum">Datum narození</label>
-         <input id="pohlavi" type="radio" name="pohlaví" value="Muž">muž
-      <input type="radio" name="pohlaví" volue="Žena">žena<br>
+      <input id="datum" required type="date" name="Datum narození"><br>
       <label for="pohlavi">Pohlaví</label>
-       <input id="email" required type="email" name="email" placeholder="Email">
-      <label for="email" >Email</label>
-      <input id="telefon" type="tel" >
+         <input id="pohlavi" type="radio" name="pohlaví" value="Muž">Muž
+      <input type="radio" name="pohlaví" volue="Žena">Žena<br>
+     <label for="email" >Email</label>
+       <input id="email" required type="email" name="email" placeholder="Email"><br>
       <label for="telefon" ></label>
-      <input type="radio" name="zalibi" volue="Sport">
+      <input id="telefon" type="tel" >
+     <label for="skola">Navštěvuji:</label>
+      <input type="radio" name="zalibi" volue="Sport">Sport
         <select id="skola" name="navštěvuji">
-        <label for="skola">Navštěvuji:</label>
+        
       </select>
       <input required type="submit" value="ODESLAT"><br>
       <input  type="reset" value="vymazat"><br>
